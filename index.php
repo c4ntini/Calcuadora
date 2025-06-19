@@ -27,7 +27,7 @@
     </script>
     
     <!-- ==================== ESTILOS CUSTOMIZADOS ==================== -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=20250619">
 </head>
 
 <body>
@@ -162,13 +162,13 @@
     </section>
 
     
-     <!-- ==================== SEÇÃO DEPOIMENTOS ==================== -->
+             <!-- ==================== SEÇÃO DEPOIMENTOS (ATUALIZADA 9:16, ROLAGEM LATERAL) ==================== -->
     <section class="section-white">
         <div class="container">
             <h2 class="section-title">Veja os Resultados Reais dos Nossos Clientes</h2>
-            <div class="video-testimonials-grid">
-                <div class="video-testimonial">
-                    <div class="video-wrapper">
+            <div class="video-testimonials-scroll">
+                <div class="video-testimonial-916">
+                    <div class="video-wrapper-916">
                         <iframe 
                             src="https://www.youtube.com/embed/mkcaWfW8y3w" 
                             title="Depoimento Cliente 1 - Lift Detox Black"
@@ -178,8 +178,8 @@
                         </iframe>
                     </div>
                 </div>
-                <div class="video-testimonial">
-                    <div class="video-wrapper">
+                <div class="video-testimonial-916">
+                    <div class="video-wrapper-916">
                         <iframe 
                             src="https://www.youtube.com/embed/jbttWbCbbuI" 
                             title="Depoimento Cliente 2 - Lift Detox Black"
@@ -189,8 +189,8 @@
                         </iframe>
                     </div>
                 </div>
-                <div class="video-testimonial">
-                    <div class="video-wrapper">
+                <div class="video-testimonial-916">
+                    <div class="video-wrapper-916">
                         <iframe 
                             src="https://www.youtube.com/embed/PQSSL-aoTmI" 
                             title="Depoimento Cliente 3 - Lift Detox Black"
@@ -200,8 +200,8 @@
                         </iframe>
                     </div>
                 </div>
-                <div class="video-testimonial">
-                    <div class="video-wrapper">
+                <div class="video-testimonial-916">
+                    <div class="video-wrapper-916">
                         <iframe 
                             src="https://www.youtube.com/embed/i9274HarmVg" 
                             title="Depoimento Cliente 4 - Lift Detox Black"
@@ -216,42 +216,35 @@
         </div>
     </section>
 
-    <!-- ==================== SEÇÃO RESULTADOS DOS CLIENTES ==================== -->
+                <!-- ==================== SEÇÃO RESULTADOS DOS CLIENTES (ROLAGEM HORIZONTAL) ==================== -->
     <section class="results-section">
         <div class="container">
             <h2 class="section-title">Resultados Reais dos Nossos Clientes</h2>
             <p class="results-subtitle">Veja as transformações incríveis de quem já experimentou o LIFT DETOX BLACK</p>
-            <div class="results-grid">
-                <div class="result-item">
-                    <div class="result-image">
-                        <img src="images/resultado1.png" alt="Resultado Cliente 1 - Antes e Depois">
-                    </div>
+            <div class="results-scroll">
+                <div class="result-card">
+                    <img src="images/resultado1.png" alt="Resultado Cliente 1 - Antes e Depois">
                 </div>
-                <div class="result-item">
-                    <div class="result-image">
-                        <img src="images/resultado2.png" alt="Resultado Cliente 2 - Antes e Depois">
-                    </div>
+                <div class="result-card">
+                    <img src="images/resultado2.png" alt="Resultado Cliente 2 - Antes e Depois">
                 </div>
-                <div class="result-item">
-                    <div class="result-image">
-                        <img src="images/resultado3.png" alt="Resultado Cliente 3 - Antes e Depois">
-                    </div>
+                <div class="result-card">
+                    <img src="images/resultado3.png" alt="Resultado Cliente 3 - Antes e Depois">
                 </div>
-                <div class="result-item">
-                    <div class="result-image">
-                        <img src="images/resultado4.png" alt="Resultado Cliente 4 - Antes e Depois">
-                    </div>
+                <div class="result-card">
+                    <img src="images/resultado4.png" alt="Resultado Cliente 4 - Antes e Depois">
                 </div>
+                <!-- Adicione mais result-card conforme necessário -->
             </div>
             <div class="results-cta">
-                <a href="#comprar" class="btn-primary btn-large" onclick="fbq('track', 'Lead');">
+                <a href="#comprar" class="btn-primary btn-large">
                     <i class="fas fa-fire mr-2"></i>
                     Quero Ter Esses Resultados Também
                 </a>
             </div>
         </div>
     </section>
-    
+
            <!-- ==================== FAIXA FRETE GRÁTIS ==================== -->
     <section class="free-shipping-banner">
         <div class="free-shipping-container">
@@ -259,74 +252,51 @@
         </div>
     </section>
 
-    <!-- ==================== SEÇÃO PLANOS DE COMPRA ==================== -->
-    <section class="section-light" id="comprar">
-        <div class="container">
-            <h2 class="section-title">Escolha o Seu Plano</h2>
-            <div class="plans-grid">
-                <div class="plan-card">
-                    <p class="plan-title">Plano Básico</p>
-                    <p class="plan-price">R$ 97,00</p>
-                    <ul class="text-left text-gray-600 mb-6">
-                        <li class="flex items-center mb-2"><i class="fas fa-check-circle text-green-500 mr-2"></i>1 Pote</li>
-                        <li class="flex items-center mb-2"><i class="fas fa-check-circle text-green-500 mr-2"></i>Resultados Iniciais</li>
-                        <li class="flex items-center"><i class="fas fa-times-circle text-red-500 mr-2"></i>Frete não inclusos</li>
-                    </ul>
-                    <button class="btn-buy" onclick="fbq(\'track\', \'AddToCart\', {content_name: \'Plano Básico\'});">Comprar Agora</button>
-                </div>
-                <div class="plan-card popular">
-                    <p class="plan-title">Plano Popular</p>
-                    <p class="plan-price">R$ 197,00</p>
-                    <ul class="text-left text-gray-600 mb-6">
-                        <li class="flex items-center mb-2"><i class="fas fa-check-circle text-green-500 mr-2"></i>3 Potes</li>
-                        <li class="flex items-center mb-2"><i class="fas fa-check-circle text-green-500 mr-2"></i>Resultados Otimizados</li>
-                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-2"></i>Frete Grátis</li>
-                    </ul>
-                    <button class="btn-buy" onclick="fbq(\'track\', \'AddToCart\', {content_name: \'Plano Popular\'});">Comprar Agora</button>
-                </div>
-                <div class="plan-card">
-                    <p class="plan-title">Plano Premium</p>
-                    <p class="plan-price">R$ 297,00</p>
-                    <ul class="text-left text-gray-600 mb-6">
-                        <li class="flex items-center mb-2"><i class="fas fa-check-circle text-green-500 mr-2"></i>5 Potes</li>
-                        <li class="flex items-center mb-2"><i class="fas fa-check-circle text-green-500 mr-2"></i>Resultados Máximos</li>
-                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-2"></i>Frete Grátis + Brinde</li>
-                    </ul>
-                    <button class="btn-buy" onclick="fbq(\'track\', \'AddToCart\', {content_name: \'Plano Premium\'});">Comprar Agora</button>
-                </div>
-            </div>
+            <!-- ==================== SEÇÃO PLANOS DE COMPRA (IMAGENS ALINHADAS) ==================== -->
+    <section class="plans-section">
+      <div class="container">
+        <h2 class="section-title">Escolha o seu <span class="highlight-green">KIT IDEAL</span> para o seu tratamento</h2>
+        <p class="plans-subtitle">Para melhores resultados indicamos os kits acima de 3 a 5 unidades.</p>
+        <div class="plans-grid">
+          <a href="https://pay.braip.co/ref?pl=plag8o2v&ck=chew8wl8&af=afi28ze27n" target="_blank" rel="noopener">
+            <img src="images/1pote.png" alt="Leve 1 pote" class="plan-img-only">
+          </a>
+          <a href="https://pay.braip.co/ref?pl=plar06ow&ck=chew8wl8&af=afi28ze27n" target="_blank" rel="noopener">
+            <img src="images/2potes.png" alt="Compre 2 leve 3" class="plan-img-only">
+          </a>
+          <a href="https://pay.braip.co/ref?pl=plageykv&ck=chew8wl8&af=afi28ze27n" target="_blank" rel="noopener">
+            <img src="images/3potes.png" alt="Compre 3 leve 5" class="plan-img-only">
+          </a>
+          <a href="https://pay.braip.co/ref?pl=pladerwz&ck=chew8wl8&af=afi28ze27n" target="_blank" rel="noopener">
+            <img src="images/5potes.png" alt="Compre 5 leve 10" class="plan-img-only">
+          </a>
         </div>
+      </div>
     </section>
 
-    <!-- ==================== SEÇÃO FAQ ==================== -->
-    <section class="section-light">
-        <div class="container">
-            <h2 class="section-title">Perguntas Frequentes</h2>
-            <div class="faq-item">
-                <button class="faq-question">LIFT DETOX BLACK tem efeitos colaterais?</button>
-                <div class="faq-answer">
-                    <p>Não, LIFT DETOX BLACK é 100% natural e não possui efeitos colaterais. É seguro para consumo.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">Em quanto tempo vejo resultados?</button>
-                <div class="faq-answer">
-                    <p>Os resultados variam, mas muitos clientes relatam ver mudanças significativas nas primeiras semanas de uso consistente.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">Preciso de receita médica para comprar?</button>
-                <div class="faq-answer">
-                    <p>Não, por ser um suplemento natural, LIFT DETOX BLACK não exige receita médica.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">Qual a forma de pagamento?</button>
-                <div class="faq-answer">
-                    <p>Aceitamos diversas formas de pagamento, incluindo cartão de crédito, boleto bancário e PIX.</p>
-                </div>
-            </div>
+        <!-- ==================== SEÇÃO FAQ ==================== -->
+        <section class="faq-section">
+      <div class="container">
+        <h2 class="faq-title">Perguntas Frequentes</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3 class="faq-question">Como funciona o produto?</h3>
+            <p class="faq-answer">Nosso produto atua diretamente na causa do problema, promovendo resultados visíveis em poucas semanas de uso regular.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">É seguro para todas as idades?</h3>
+            <p class="faq-answer">Sim! O produto é formulado apenas com ingredientes naturais e pode ser usado por adultos de todas as idades. Consulte seu médico se tiver alguma condição específica.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">Quanto tempo leva para ver resultados?</h3>
+            <p class="faq-answer">Os primeiros resultados costumam aparecer entre 2 e 4 semanas, mas podem variar de pessoa para pessoa.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">Como faço para comprar?</h3>
+            <p class="faq-answer">Basta escolher um dos kits na seção acima e clicar para ser redirecionado à página de pagamento segura.</p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- ==================== FOOTER ==================== -->
@@ -376,5 +346,3 @@
 
 </body>
 </html>
-
-
